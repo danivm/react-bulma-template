@@ -1,0 +1,29 @@
+{
+  "name": "react-bulma-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sui-bundler dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@s-ui/bundler": "3",
+    "@s-ui/lint": "2"
+  },
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "react": "next",
+    "react-dom": "next",
+    "react-router-dom": "4.3.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/@s-ui/lint/eslintrc.js"
+    ]
+  },
+  "sasslintConfig": "./node_modules/@s-ui/lint/sass-lint.yml"
+}
