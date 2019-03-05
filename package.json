@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "sui-bundler build",
     "start": "sui-bundler dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
