@@ -12,7 +12,8 @@ export function Footer() {
           website content is licensed{' '}
           <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
             CC BY NC SA 4.0
-          </a>.
+          </a>
+          .
         </p>
       </div>
     </footer>
