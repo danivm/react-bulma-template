@@ -16,10 +16,11 @@ export function Navbar() {
             src="https://bulma.io/images/bulma-logo.png"
             width="112"
             height="28"
+            alt=""
           />
         </Link>
-
         <a
+          href="/"
           role="button"
           className={`navbar-burger burger ${activeClass}`}
           aria-label="menu"
@@ -32,7 +33,6 @@ export function Navbar() {
           <span aria-hidden="true" />
         </a>
       </div>
-
       <div id="navbarBasicExample" className={`navbar-menu ${activeClass}`}>
         <div className="navbar-start">
           <Link to="/" className="navbar-item" onClick={closeDropdown}>
@@ -42,14 +42,23 @@ export function Navbar() {
             Sample
           </Link>
           <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link">Dropdown sample</a>
-
+            <a className="navbar-link" href="/">
+              Dropdown sample
+            </a>
             <div className="navbar-dropdown">
-              <a className="navbar-item">About</a>
-              <a className="navbar-item">Jobs</a>
-              <a className="navbar-item">Contact</a>
+              <a className="navbar-item" href="/">
+                About
+              </a>
+              <a className="navbar-item" href="/">
+                Jobs
+              </a>
+              <a className="navbar-item" href="/">
+                Contact
+              </a>
               <hr className="navbar-divider" />
-              <a className="navbar-item">Report an issue</a>
+              <a className="navbar-item" href="/">
+                Report an issue
+              </a>
             </div>
           </div>
         </div>
@@ -57,10 +66,12 @@ export function Navbar() {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
-              <a className="button is-primary">
+              <a className="button is-primary" href="/">
                 <strong>Sign up</strong>
               </a>
-              <a className="button is-light">Log in</a>
+              <a className="button is-light" href="/">
+                Log in
+              </a>
             </div>
           </div>
         </div>

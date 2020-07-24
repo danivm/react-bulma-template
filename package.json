@@ -1,6 +1,6 @@
 {
   "name": "react-bulma-template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,14 +12,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@s-ui/bundler": "5",
+    "@s-ui/bundler": "6",
     "@s-ui/lint": "3"
   },
   "dependencies": {
     "bulma": "0.8",
     "react": "16",
     "react-dom": "16",
-    "react-router-dom": "4.3.1"
+    "react-router-dom": "5"
   },
   "eslintConfig": {
     "extends": [
