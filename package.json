@@ -1,24 +1,25 @@
 {
   "name": "react-bulma-template",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "sui-bundler build",
     "start": "sui-bundler dev",
+    "phoenix": "npx rimraf node_modules && npm i --cache-min=999999",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@s-ui/bundler": "6",
+    "@s-ui/bundler": "7",
     "@s-ui/lint": "3"
   },
   "dependencies": {
-    "bulma": "0.8",
-    "react": "16",
-    "react-dom": "16",
+    "bulma": "0.9",
+    "react": "17",
+    "react-dom": "17",
     "react-router-dom": "5"
   },
   "eslintConfig": {

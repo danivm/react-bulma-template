@@ -20,7 +20,6 @@ export function Navbar() {
           />
         </Link>
         <a
-          href="/"
           role="button"
           className={`navbar-burger burger ${activeClass}`}
           aria-label="menu"
